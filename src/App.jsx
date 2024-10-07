@@ -37,19 +37,19 @@ export default function App() {
       </div>
     );
   }
-  if (false) {
-    return (
-      <div>
-        <h3>
-          This is my plan B if my plan A(IT job) fails then I am forward with
-          plan B.
-        </h3>
-        <hr />
-        <h4> Click the button to see the cart Items</h4>
-        <button>Enter</button>
-      </div>
-    );
-  } else {
+  // if (false) {
+  //   return (
+  //     <div>
+  //       <h3>
+  //         This is my plan B if my plan A(IT job) fails then I am forward with
+  //         plan B.
+  //       </h3>
+  //       <hr />
+  //       <h4> Click the button to see the cart Items</h4>
+  //       <button>Enter</button>
+  //     </div>
+  //   );
+  // } else {
     return (
       <main>
         {isOpen && <Modal />}
@@ -58,4 +58,4 @@ export default function App() {
       </main>
     );
   }
-}
+// }
